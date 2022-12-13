@@ -1,0 +1,27 @@
+mysql:
+    host:
+    port:
+    user:
+    password:
+    database:
+    maxIdle: 0
+    maxOpen: 0
+zap:
+    prefix: '[gin-quasar-admin]'
+    level: info
+    path: gqa-log
+    filename: gqa-log
+    maxSize: 200
+    maxBackups: 10
+    maxAge: 8
+system:
+    port: 8089
+    successCode: 1
+    successMessage: 操作成功！
+    errorCode: 0
+    errorMessage: 操作失败！
+    bindError: 入参校验失败！
+    genPluginPath: template/gqaplugintemplate
+    importPath: ./template/import
+    exportPath: ./template/export
+    templatePath: ./template/template
