@@ -10,12 +10,12 @@ zap:
     prefix: '[sdwan]'
     level: info
     path: wan-log
-    filename: gqa-log
+    filename: sdwan-log
     maxSize: 200
     maxBackups: 10
     maxAge: 8
 system:
-    port: 8099
+    port: 8088
     successCode: 1
     successMessage: 操作成功！
     errorCode: 0
