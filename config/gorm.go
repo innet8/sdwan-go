@@ -10,9 +10,9 @@ func GormConfig() gorm.Config {
     return gorm.Config{
         NamingStrategy: schema.NamingStrategy{
             SingularTable: true,
-            },
-            DisableForeignKeyConstraintWhenMigrating: true,
-            }
+        },
+        DisableForeignKeyConstraintWhenMigrating: true,
+     }
 }
 
 func MysqlConfig(config Mysql) mysql.Config {

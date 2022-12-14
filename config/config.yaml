@@ -7,15 +7,15 @@ mysql:
     maxIdle: 0
     maxOpen: 0
 zap:
-    prefix: '[gin-quasar-admin]'
+    prefix: '[sdwan]'
     level: info
-    path: gqa-log
+    path: wan-log
     filename: gqa-log
     maxSize: 200
     maxBackups: 10
     maxAge: 8
 system:
-    port: 8089
+    port: 8099
     successCode: 1
     successMessage: 操作成功！
     errorCode: 0
